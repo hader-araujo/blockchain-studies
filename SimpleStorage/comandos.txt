@@ -1,0 +1,11 @@
+free -h --giga
+
+
+truffle compile
+truffle test
+truffle develop                                         // start local develop blockchain and attach a truffle console to it
+        migrate --reset
+
+truffle migrate --reset --network bscTestnet
+truffle console --network bscTestnet                    //  to attach to a public test net
+        storage = await SimpleStorage.deployed()
