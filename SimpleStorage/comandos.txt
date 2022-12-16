@@ -8,4 +8,8 @@ truffle develop                                         // start local develop b
 
 truffle migrate --reset --network bscTestnet
 truffle console --network bscTestnet                    //  to attach to a public test net
-        storage = await SimpleStorage.deployed()
+        meuContrato = await SimpleStorage.deployed()
+        meuContrato.address
+        valor =  await  meuContrato.readData()
+        valor.toString()
+        meuContrato.updateData(234)
