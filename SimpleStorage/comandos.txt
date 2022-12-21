@@ -1,10 +1,4 @@
 
-codidos de:
-https://www.youtube.com/watch?v=62f757RVEvU&ab_channel=EatTheBlocks
-https://www.youtube.com/watch?v=eCc_TyIETw8&ab_channel=EatTheBlocks
-
-
-
 free -h --giga
 
 
